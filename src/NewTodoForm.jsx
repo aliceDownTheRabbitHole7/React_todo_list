@@ -1,6 +1,6 @@
 import { useState } from "react"
 
-export function NewTodoForm({ onSubmit }) {
+export default function NewTodoForm(props) {
 
     props.addTodo
 
